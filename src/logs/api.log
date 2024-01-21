@@ -218,3 +218,5 @@
 {"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.730","status":"500","timestamp":"2024-01-21T11:59:52.734Z","url":"/flashcards"}
 {"contentLength":"150","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"2.276","status":"404","timestamp":"2024-01-21T11:59:52.766Z","url":"/favicon.ico"}
 {"contentLength":"1628","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"7.321","status":"500","timestamp":"2024-01-21T12:00:27.664Z","url":"/flashcards"}
+{"contentLength":"50","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"2.095","status":"200","timestamp":"2024-01-21T12:22:07.960Z","url":"/"}
+{"contentLength":"665","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.596","status":"200","timestamp":"2024-01-21T12:22:14.902Z","url":"/flashcards"}
