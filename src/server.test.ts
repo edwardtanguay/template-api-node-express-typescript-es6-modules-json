@@ -4,22 +4,17 @@ import { app } from "./server.js";
 
 describe('GET /', async () => {
 	const response = await request(app).get('/');
-	const responseBody = JSON.parse(response.text);
 
 	it('receives the correct HTTP code', () => {
 		expect(response.statusCode).toBe(200);
 	});
 
 	it('has the correct content-type', () => {
-		expect(response.headers['content-type']).toMatch(/application\/json/);
+		expect(response.headers['content-type']).toMatch(/text\/html/);
 	});
 
-	it('contains the correct property', () => {
-		expect(responseBody).toHaveProperty('applicationName');
-	});
-
-	it('applicationName has a value', () => {
-		expect(responseBody.applicationName).not.toBe('');
+	it('includes expected text', () => {
+		expect(response.text.includes('Node/Express')).toBeTruthy();
 	});
 });
 
