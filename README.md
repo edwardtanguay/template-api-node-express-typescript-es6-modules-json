@@ -90,9 +90,8 @@ app.use(morganRouteLogger);
 ## hosting
 
 - the package json has two scripts ready for hosting: `build` and `start`
-- if you want to host this backend at a hosting service such as **Render** or **Cyclic**, use these scripts:
+- if you want to host this backend at a hosting service such as **Render** or **Cyclic**, or a cloud machine at e.g. **Hetzner** or **DigitalOcean**, use these scripts:
   - build command: `npm i && npm run build`
   - start command: `npm start`
 
-
-
+![hhenterallsj222](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/68026628-415e-49a4-951c-4bf2a126c4fb)
