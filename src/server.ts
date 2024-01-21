@@ -31,6 +31,7 @@ app.get('/', (req, res) => {
 	<ul>
 		<li>GET all flashcards - <a href="http://localhost:4206/flashcards">http://localhost:4206/flashcards</a></li>
 		<li>GET one flashcard - <a href="http://localhost:4206/flashcards/82Js23">http://localhost:4206/flashcards/82Js23</a></li>
+		<li>GET log report - <a href="http://localhost:4206/flashcards/info/logs">http://localhost:4206/flashcards/info/logs</a></li>
 		<li>For POST, PUT, PATCH and DELETE routes, see <strong>test.rest</strong> (requires <a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">VSCode REST Client</a>)</li>
 	</ul>
 	</body>
