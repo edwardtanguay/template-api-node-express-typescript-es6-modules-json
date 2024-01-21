@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 	})
 });
 
-app.use('/src/flashcards', flashcardRouter);
+app.use('/flashcards', flashcardRouter);
 
 app.use((err: Error, req: express.Request, res: express.Response, next: NextFunction) => {
 	console.error(err.message)

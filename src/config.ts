@@ -1,4 +1,4 @@
-import { IApiStatus } from '../../src/shared/interfaces';
+import { IApiStatus } from './interfaces';
 
 export const getPort = () => {
 	return 4206;

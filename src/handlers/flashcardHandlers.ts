@@ -1,4 +1,4 @@
-import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../../../src/shared/interfaces';
+import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../interfaces';
 import { getDb, getSuuid } from './dbtools';
 
 const db = await getDb();
