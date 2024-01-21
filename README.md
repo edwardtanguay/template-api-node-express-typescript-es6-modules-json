@@ -1,6 +1,8 @@
 # API Starter Template
 
-This is a Node/Express API that is ready to **use and customize**.
+- This is a Node/Express API that has two purposes:
+  - (1) serves as a template that you can use to customize, e.g. replace the lowdb database with SQLite, MySQL, Postgres, MongoDB, etc.
+  - (2) serves as code to learn the basics of creating an API
 
 ## TypeScript
 
@@ -18,12 +20,12 @@ This is a Node/Express API that is ready to **use and customize**.
 
 ### Vitest/Supertest
 
--   run testing with `npm t`
+-   run tests with `npm t`
 -   see: `src/server.test.ts`
     -   currently only GET routes are tested
     -   for non-GET routes, you would have to mock the database
 
 ### REST Client
 
--   required: VSCode [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+-   required VSCode extension: [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 -   see: `test.rest`
