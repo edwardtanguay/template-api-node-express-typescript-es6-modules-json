@@ -94,4 +94,4 @@ app.use(morganRouteLogger);
   - build command: `npm i && npm run build`
   - start command: `npm start`
 
-![hhenterallsj222](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/68026628-415e-49a4-951c-4bf2a126c4fb)
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/4c57128a-c648-4c9a-9c3f-509fc1fb72aa)
