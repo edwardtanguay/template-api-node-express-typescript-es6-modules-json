@@ -58,6 +58,8 @@
 -   required VSCode extension: [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 -   see: `test.rest`
 
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/f982aaa7-6ad6-46a9-a2a9-a31a8196f4ab)
+
 ## lowdb database
 
 - lowdb was chosen for this template as a simple database that saves data as human-readable text in a JSON file
