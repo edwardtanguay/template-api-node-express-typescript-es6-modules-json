@@ -77,6 +77,8 @@
 - there are a few instances of middleware implemented, see **src/middleware**
 - note the middleware also at the bottom of **server.ts** which catches any thrown errors in the application, e.g. if the database does not exist, etc.
 
+![themesaaskdmaint](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/04069f72-8145-40e5-ba74-4c1ccf26ec77)
+
 ## logging
 
 - logging is implemented and uses both **winston** and **morgan**
