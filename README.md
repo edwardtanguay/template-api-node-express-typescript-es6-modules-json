@@ -19,6 +19,7 @@
 - middleware
   - clean and validate data
   - maintenance mode
+  - graceful error catching (e.g. if database fails)
 - testing
   - Vitest/Supertest 
   - VSCode REST Client
