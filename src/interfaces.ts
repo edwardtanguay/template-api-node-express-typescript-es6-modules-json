@@ -4,18 +4,28 @@ export interface INewFlashcard {
 	back: string;
 }
 
-export const blankNewFlashcard: INewFlashcard = {
-	category: 'linux',
-	front: '',
-	back: ''
-}
-
 export interface IFlashcard extends INewFlashcard {
 	suuid: string;
 }
 
 export interface ITestingFlashcard extends IFlashcard {
 	backIsShowing: boolean;
+}
+
+export type IApiStatus = {
+	status: "live" | "maintenanceMode",
+	whenLiveAgainDateTime: string
+}
+
+export interface ILogItem {
+	timestamp: string;
+	level: string;
+	message: string;
+	method: string;
+	status: string;
+	remoteAddr: string;
+	url: string;
+	responseTime: string;
 }
 
 export interface IPatchFlashcard {
@@ -39,18 +49,8 @@ export const convertFlashcardToTestingFlaschard = (flashcard: IFlashcard): ITest
 	}
 }
 
-export type IApiStatus = {
-	status: "live" | "maintenanceMode",
-	whenLiveAgainDateTime: string
-}
-
-export interface ILogItem {
-	timestamp: string;
-	level: string;
-	message: string;
-	method: string;
-	status: string;
-	remoteAddr: string;
-	url: string;
-	responseTime: string;
+export const blankNewFlashcard: INewFlashcard = {
+	category: 'linux',
+	front: '',
+	back: ''
 }
