@@ -47,12 +47,11 @@
 ### Vitest/Supertest
 
 -   run tests with `npm t`
-
-![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/e7c3743b-3c83-4876-abb0-3d36d2ad6060)
-
 -   see: `src/server.test.ts`
     -   currently only GET routes are tested
     -   for non-GET routes, you would have to mock the database
+
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/e7c3743b-3c83-4876-abb0-3d36d2ad6060)
 
 ### REST Client
 
