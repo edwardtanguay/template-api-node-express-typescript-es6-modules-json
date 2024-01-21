@@ -32,7 +32,7 @@ PATCH {{url}}/flashcards/z0fry4
 content-type: application/json
 
 {
-	"category": "python"
+	"category": "ruby"
 }
 
 ### DELETE FLASHCARD
