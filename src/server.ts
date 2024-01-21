@@ -41,6 +41,7 @@ app.get('/', (req, res) => {
 
 app.use('/flashcards', flashcardRouter);
 
+// global error catching
 app.use((err: Error, req: express.Request, res: express.Response, next: NextFunction) => {
 	console.error(err.message)
 	logger.error(err.message);

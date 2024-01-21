@@ -58,9 +58,9 @@
 
 ## lowdb database
 
-- lowdb was chosen for this template as a database that saves data as human readable test (a JSON file)
-- it works well and could be used for e.g. developer tools, etc.
-- but in most cases you will want to replace with with a database such as MySQL, Postgres or MongoDB
+- lowdb was chosen for this template as a simple database that saves data as human-readable text in a JSON file
+- it works well and could be used for e.g. local developer tools, etc.
+- but in most cases you will want to replace it with a database such as MySQL, Postgres or MongoDB
 
 ## middleware
 
@@ -74,6 +74,12 @@
 ```
 app.use(morganRouteLogger);
 ```
+## hosting
+
+- the package json has two scripts ready for hosting: `build` and `start`
+- if you want to host this backend at a hosting service such as **Render** or **Cyclic**, use these scripts:
+  - build command: `npm i && npm run build`
+  - start command: `npm start`
 
 
 
