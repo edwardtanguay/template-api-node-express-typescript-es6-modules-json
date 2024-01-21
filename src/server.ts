@@ -12,9 +12,31 @@ app.use(maintenanceMode);
 app.use(morganRouteLogger);
 
 app.get('/', (req, res) => {
-	res.json({
-		applicationName: "API for AppLearn version 0.1"
-	})
+	res.send(`
+<html>
+	<head>
+		<style>
+			body {
+				background-color: #aaa;
+				font-family: sans-serif;
+				padding: 1rem;
+			}
+			li {
+				margin-bottom: .5rem;
+			}
+		</style>
+	</head>
+	<body>
+	<h1>Node/Express API</h1>
+	<ul>
+		<li>GET all flashcards - <a href="http://localhost:4206/flashcards">http://localhost:4206/flashcards</a></li>
+		<li>GET one flashcard - <a href="http://localhost:4206/flashcards/82Js23">http://localhost:4206/flashcards/82Js23</a></li>
+		<li>For POST, PUT, PATCH and DELETE routes, see <strong>test.rest</strong> (requires <a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">VSCode REST Client</a>)</li>
+	</ul>
+	</body>
+</html>
+	`)
+
 });
 
 app.use('/flashcards', flashcardRouter);

@@ -1,18 +1,6 @@
 {
   "flashcards": [
     {
-      "suuid": "aac8dW",
-      "category": "ccc",
-      "front": "fff",
-      "back": "bbb"
-    },
-    {
-      "suuid": "cj5bkN",
-      "category": "ccc",
-      "front": "fff",
-      "back": "bbb"
-    },
-    {
       "suuid": "2Rz81V",
       "category": "linux",
       "front": "find out the current directory",

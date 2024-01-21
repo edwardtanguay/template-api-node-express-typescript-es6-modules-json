@@ -1,4 +1,4 @@
-# API Starter Template
+# Node/Express API Starter Template
 
 ## This is a Node/Express API that has two purposes:
 
@@ -55,3 +55,24 @@
 
 -   required VSCode extension: [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 -   see: `test.rest`
+
+## lowdb database
+
+- lowdb was chosen for this template as a database that saves data as human readable test (a JSON file)
+- it works well and could be used for e.g. developer tools, etc.
+- but in most cases you will want to replace with with a database such as MySQL, Postgres or MongoDB
+
+## middleware
+
+- there are a few instances of middleware implemented, see **src/middleware**
+- note the middleware also at the bottom of **server.ts** which catches any thrown errors in the application, e.g. if the database does not exist, etc.
+
+## logging
+
+- logging is implemented and uses both **winston** and **morgan**
+- see **server.ts**
+---
+app.use(morganRouteLogger);
+---
+
+
