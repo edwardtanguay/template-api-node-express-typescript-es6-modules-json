@@ -42,6 +42,8 @@
     -   and we have to use `"module": "nodenext"` because we are using lowdb [info](<[info](https://github.com/typicode/lowdb/issues/554)>)
     -   if you switch your datasouce from lowdb to something else, you can go back to using no extensions for TypeScript imports if you switch to `"module": "es2022"`
 
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/c01c6670-f54a-45a5-9d4e-aa106547b645)
+
 ## Testing
 
 ### Vitest/Supertest
