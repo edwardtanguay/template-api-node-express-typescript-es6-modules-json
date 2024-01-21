@@ -71,8 +71,9 @@
 
 - logging is implemented and uses both **winston** and **morgan**
 - see **server.ts**
----
+```
 app.use(morganRouteLogger);
----
+```
+
 
 
