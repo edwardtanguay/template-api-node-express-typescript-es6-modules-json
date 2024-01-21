@@ -255,3 +255,6 @@
 {"contentLength":"791","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"2.094","status":"200","timestamp":"2024-01-21T13:03:49.893Z","url":"/flashcards"}
 {"level":"warn","message":"user tried to delete following suuid: z0fry4","timestamp":"2024-01-21T13:03:52.892Z"}
 {"contentLength":"44","level":"http","message":"incoming-request","method":"DELETE","remoteAddr":"::ffff:127.0.0.1","responseTime":"1.047","status":"404","timestamp":"2024-01-21T13:03:52.892Z","url":"/flashcards/z0fry4"}
+{"contentLength":"50","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"1.821","status":"200","timestamp":"2024-01-21T13:14:21.721Z","url":"/"}
+{"contentLength":"109744","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"9.586","status":"200","timestamp":"2024-01-21T13:14:21.739Z","url":"/flashcards/info/logs"}
+{"contentLength":"791","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.318","status":"200","timestamp":"2024-01-21T13:14:21.743Z","url":"/flashcards"}

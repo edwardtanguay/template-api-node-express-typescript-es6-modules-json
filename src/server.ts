@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
 
 app.use('/flashcards', flashcardRouter);
 
-// app.use((err: Error, req: express.Request, res: express.Response, next: NextFunction) => {
-// 	console.error(err.message)
-// 	logger.error(err.message);
-// 	res.status(500).send('We are currently experiencing technical difficulties. Try again at a later time, or call 423 23423 23 234.')
-// });
+app.use((err: Error, req: express.Request, res: express.Response, next: NextFunction) => {
+	console.error(err.message)
+	logger.error(err.message);
+	res.status(500).send('We are currently experiencing technical difficulties. Try again at a later time, or call 423 23423 23 234.')
+});

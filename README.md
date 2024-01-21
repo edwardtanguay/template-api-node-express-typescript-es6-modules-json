@@ -1,8 +1,33 @@
 # API Starter Template
 
--   This is a Node/Express API that has two purposes:
-    -   (1) serves as a template that you can use to customize, e.g. replace the lowdb database with SQLite, MySQL, Postgres, MongoDB, etc.
-    -   (2) serves as code to learn the basics of creating an API with Node/Express/TypeScript plus many features
+## This is a Node/Express API that has two purposes:
+
+  -   (1) serves as a template that you can use to customize, e.g. replace the lowdb database with SQLite, MySQL, Postgres, MongoDB, etc.
+  -   (2) serves as code to learn the basics of creating an API with Node/Express/TypeScript plus many features
+
+## FEATURES
+
+- Node/Express
+- TypeScript
+  - executed with tsx
+  - compiled with tsc
+  - watched with nodemon
+- ES6 modules
+- lowdb as database (JSON file)
+- routers
+- handlers (controllers)
+- middleware
+  - clean and validate data
+  - maintenance mode
+- testing
+  - Vitest/Supertest 
+  - VSCode REST Client
+- logging 
+  - winston 
+  - morgan
+- start scripts for hosting: 
+  - `npm run build` 
+  - `npm start`
 
 ## TypeScript
 
