@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import * as flashcardHandlers from '../handlers/flashcardHandlers';
-import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../interfaces';
-import { flashcardSuuidValidate } from '../middleware/flashcardSuuidValidate';
-import { flashcardPostCleanAndValidate } from '../middleware/flashcardPostCleanAndValidate ';
-import { logger } from '../logger';
-import { flashcardInfoRouter } from './flashcardInfoRouter';
+import * as flashcardHandlers from '../handlers/flashcardHandlers.js';
+import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../interfaces.js';
+import { flashcardSuuidValidate } from '../middleware/flashcardSuuidValidate.js';
+import { flashcardPostCleanAndValidate } from '../middleware/flashcardPostCleanAndValidate.js';
+import { logger } from '../logger.js';
+import { flashcardInfoRouter } from './flashcardInfoRouter.js';
 
 export const flashcardRouter = Router();
 

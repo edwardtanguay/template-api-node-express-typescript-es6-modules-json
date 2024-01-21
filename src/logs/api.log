@@ -208,3 +208,13 @@
 {"level":"error","message":"ERROR: database does not exist","timestamp":"2024-01-21T11:53:58.895Z"}
 {"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"5.977","status":"500","timestamp":"2024-01-21T11:53:58.901Z","url":"/flashcards"}
 {"contentLength":"150","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"1.293","status":"404","timestamp":"2024-01-21T11:53:58.939Z","url":"/favicon.ico"}
+{"level":"error","message":"ERROR: database does not exist","timestamp":"2024-01-21T11:58:35.740Z"}
+{"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"5.862","status":"500","timestamp":"2024-01-21T11:58:35.747Z","url":"/flashcards"}
+{"level":"error","message":"ERROR: database does not exist","timestamp":"2024-01-21T11:58:37.272Z"}
+{"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.955","status":"500","timestamp":"2024-01-21T11:58:37.273Z","url":"/flashcards"}
+{"level":"error","message":"ERROR: database does not exist","timestamp":"2024-01-21T11:58:38.088Z"}
+{"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.800","status":"500","timestamp":"2024-01-21T11:58:38.088Z","url":"/flashcards"}
+{"level":"error","message":"ERROR: database does not exist","timestamp":"2024-01-21T11:59:52.733Z"}
+{"contentLength":"106","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.730","status":"500","timestamp":"2024-01-21T11:59:52.734Z","url":"/flashcards"}
+{"contentLength":"150","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"2.276","status":"404","timestamp":"2024-01-21T11:59:52.766Z","url":"/favicon.ico"}
+{"contentLength":"1628","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"7.321","status":"500","timestamp":"2024-01-21T12:00:27.664Z","url":"/flashcards"}

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import request from 'supertest';
-import { app } from "./server";
+import { app } from "./server.js";
 
 describe('GET /', async () => {
 	const response = await request(app).get('/');

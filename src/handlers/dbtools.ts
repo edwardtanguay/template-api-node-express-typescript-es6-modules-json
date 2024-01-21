@@ -1,13 +1,13 @@
 import { join } from 'path';
 import { JSONFile } from 'lowdb/node';
 import { Low } from 'lowdb';
-import { IDatabase, ILogItem } from '../interfaces';
+import { IDatabase, ILogItem } from '../interfaces.js';
 import fs from 'fs';
 
 export const getDb = async () => {
 	try {
 		const projectBasePath = process.cwd();
-		const dbPathAndFileName = join(projectBasePath, 'data/db.json');
+		const dbPathAndFileName = join(projectBasePath, 'src/data/db.json');
 		const adapter = new JSONFile<IDatabase>(dbPathAndFileName);
 		const db: Low<IDatabase> = new Low<IDatabase>(adapter, {} as IDatabase);
 		await db.read();

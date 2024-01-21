@@ -1,4 +1,4 @@
-import { IApiStatus } from './interfaces';
+import { IApiStatus } from './interfaces.js';
 
 export const getPort = () => {
 	return 4206;

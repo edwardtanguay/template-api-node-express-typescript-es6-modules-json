@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getArrayOfLogObjects, getLogBackgroundColorByLevel, getLogTextColorByLevel } from '../handlers/dbtools';
+import { getArrayOfLogObjects, getLogBackgroundColorByLevel, getLogTextColorByLevel } from '../handlers/dbtools.js';
 
 export const flashcardInfoRouter = Router();
 

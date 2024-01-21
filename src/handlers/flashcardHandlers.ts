@@ -1,5 +1,5 @@
-import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../interfaces';
-import { getDb, getSuuid } from './dbtools';
+import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../interfaces.js';
+import { getDb, getSuuid } from './dbtools.js';
 
 const db = await getDb();
 

@@ -1,5 +1,5 @@
 import express from 'express';
-import { suuidIsValid } from '../handlers/dbtools';
+import { suuidIsValid } from '../handlers/dbtools.js';
 
 export const flashcardSuuidValidate = (req: express.Request, res: express.Response, next: express.NextFunction) => {
 	const errors: string[] = [];

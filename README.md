@@ -1,0 +1,4 @@
+- note that when you import a **.ts** file, you need to provide a **.js** extension
+  - this is because we are using the `"module": "nodenext"` in **tsconfig.json** ([info](https://www.totaltypescript.com/relative-import-paths-need-explicit-file-extensions-in-ecmascript-imports))
+  - and we have to use `"module": "nodenext"` because we are using lowdb [info]([info](https://github.com/typicode/lowdb/issues/554))
+  - if you switch your datasouce from lowdb to something else, you can go back to using no extensions for TypeScript imports if you switch to `"module": "es2022"`
