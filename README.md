@@ -80,6 +80,9 @@
 ```
 app.use(morganRouteLogger);
 ```
+
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/2fae40ce-ce8b-4153-8d95-f423222c7e26)
+
 ## hosting
 
 - the package json has two scripts ready for hosting: `build` and `start`
