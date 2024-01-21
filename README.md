@@ -5,6 +5,8 @@
   -   (1) serves as a template that you can use to customize, e.g. replace the lowdb database with SQLite, MySQL, Postgres, MongoDB, etc.
   -   (2) serves as code to learn the basics of creating an API with Node/Express/TypeScript plus many features
 
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/ccdb272c-59d5-434b-8dd7-7623390d98c5)
+
 ## FEATURES
 
 - Node/Express
