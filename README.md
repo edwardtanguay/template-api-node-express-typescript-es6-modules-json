@@ -66,6 +66,8 @@
 - it works well and could be used for e.g. local developer tools, etc.
 - but in most cases you will want to replace it with a database such as MySQL, Postgres or MongoDB
 
+![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/066e8a78-b45a-4029-820e-c8745d20f3c7)
+
 ## middleware
 
 - there are a few instances of middleware implemented, see **src/middleware**
