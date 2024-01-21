@@ -8,7 +8,7 @@ export const logger = winston.createLogger({
 	format: combine(timestamp(), json()),
 	transports: [
 		new winston.transports.File({
-			filename: 'backend/api/logs/api.log',
+			filename: 'src/logs/api.log',
 			level: 'debug'
 		})
 	]

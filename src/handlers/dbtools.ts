@@ -1,13 +1,13 @@
 import { join } from 'path';
 import { JSONFile } from 'lowdb/node';
 import { Low } from 'lowdb';
-import { IDatabase, ILogItem } from '../../../src/shared/interfaces';
+import { IDatabase, ILogItem } from '../interfaces';
 import fs from 'fs';
 
 export const getDb = async () => {
 	try {
 		const projectBasePath = process.cwd();
-		const dbPathAndFileName = join(projectBasePath, 'backend/data/db.json');
+		const dbPathAndFileName = join(projectBasePath, 'data/db.json');
 		const adapter = new JSONFile<IDatabase>(dbPathAndFileName);
 		const db: Low<IDatabase> = new Low<IDatabase>(adapter, {} as IDatabase);
 		await db.read();
@@ -42,7 +42,7 @@ export const suuidIsValid = (text: string) => {
 
 export async function getArrayOfLogObjects(): Promise<ILogItem[]> {
 	try {
-		const logFilePathAndFileName = join(process.cwd(), 'backend/api/logs/api.log');
+		const logFilePathAndFileName = join(process.cwd(), 'src/logs/api.log');
 		const data = await fs.promises.readFile(logFilePathAndFileName, 'utf8');
 		const logEntries = data.split('\n').filter(entry => entry.trim() !== '');
 		const _logs: ILogItem[] = logEntries.map(log => JSON.parse(log));

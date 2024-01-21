@@ -23,8 +23,8 @@ describe('GET /', async () => {
 	});
 });
 
-describe('GET /api/flaschards/info/logs', async () => {
-	const response = await request(app).get('/api/flashcards/info/logs');
+describe('GET /src/flaschards/info/logs', async () => {
+	const response = await request(app).get('/src/flashcards/info/logs');
 
 	it('receives the correct HTTP code', () => {
 		expect(response.statusCode).toBe(200);
@@ -35,8 +35,8 @@ describe('GET /api/flaschards/info/logs', async () => {
 	});
 });
 
-describe('GET /api/flashcards', async () => {
-	const response = await request(app).get('/api/flashcards');
+describe('GET /src/flashcards', async () => {
+	const response = await request(app).get('/src/flashcards');
 	it('receives correct HTTP code', () => {
 		expect(response.statusCode).toBe(200);
 	});
