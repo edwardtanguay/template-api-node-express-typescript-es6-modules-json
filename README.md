@@ -7,6 +7,11 @@
 
 ![grafik](https://github.com/edwardtanguay/template-api-node-express-typescript-es6-modules-lowdb/assets/446574/ccdb272c-59d5-434b-8dd7-7623390d98c5)
 
+## This is a template API to use to start new API projects
+
+- If you want to learn how to build this API step-by-step, see:
+  - **HOWTO: [LearnApp Project: Fullstack app with full local CRUD frontend/backend which publishes read-only site at Vercel](https://tanguay-eu.vercel.app/howtos/805)**
+
 ## FEATURES
 
 - Node/Express
